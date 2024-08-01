@@ -1,0 +1,79 @@
+#articles .articles__group {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    justify-content: center; /* Center the cards horizontally */
+}
+
+#articles .article {
+    background: var(--color-ui-2);
+    border-radius: var(--border-radius-3);
+    padding: 20px;
+    text-align: center;
+    overflow: hidden;
+    position: relative; /* Added for hover effect */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth hover effect */
+}
+
+#articles .article__image {
+    height: 200px; /* Fixed height for uniformity */
+    overflow: hidden; /* Ensure images don’t overflow */
+    margin-bottom: 15px;
+}
+
+#articles .article__image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensure images cover the container */
+    border-radius: var(--border-radius-2);
+    transition: transform 0.3s ease; /* Smooth zoom effect */
+}
+
+#articles .article:hover .article__image img {
+    transform: scale(1.05); /* Zoom effect on hover */
+}
+
+#articles .title {
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+#articles .description {
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--color-text-muted);
+    margin-bottom: 20px;
+}
+
+#articles .article__bottom {
+    display: flex;
+    justify-content: center;
+}
+
+#articles .btn.btn__primary {
+    background: linear-gradient(260deg, var(--color-secondary) 0%, var(--color-primary) 100%);
+    background-size: 200% auto;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: var(--border-radius-1);
+    text-decoration: none;
+    transition: background-position 0.3s ease, transform 0.3s ease; /* Added transform transition */
+}
+
+#articles .btn.btn__primary:hover {
+    background-position: right center;
+    transform: scale(1.05); /* Slightly increase button size on hover */
+}
+
+#articles .article:hover {
+    transform: translateY(-10px); /* Lift the card slightly on hover */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add shadow on hover */
+}
+
+@media (max-width: 1000px) {
+    #articles .articles__group {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+}

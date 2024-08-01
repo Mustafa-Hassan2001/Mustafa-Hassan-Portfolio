@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/static/css/main.9728cabe.css",
+    "main.js": "/static/js/main.31709e4f.js",
+    "static/media/Project-3.png": "/static/media/Project-3.a55c3b18c63a4f0abcd5.png",
+    "static/media/profile-2.png": "/static/media/profile-2.390190ae4debaadf62b3.png",
+    "static/media/Project-5.png": "/static/media/Project-5.cca4d6f9a63c2b069e89.png",
+    "static/media/Project-1.png": "/static/media/Project-1.450e0de2b4ef7aa4d964.png",
+    "static/media/Project-2.png": "/static/media/Project-2.063e1030d6158aec97e7.png",
+    "static/media/Project-4.png": "/static/media/Project-4.cb28382eface5f003177.png",
+    "static/media/profile-1.png": "/static/media/profile-1.829034373b36b49bc388.png",
+    "static/media/article-3.png": "/static/media/article-3.4f97580104fa0c343707.png",
+    "static/media/badges-2.png": "/static/media/badges-2.0f8124e797edea913956.png",
+    "static/media/profile-3.jpeg": "/static/media/profile-3.829bd0bab2a7e78abdce.jpeg",
+    "static/media/badges-3.png": "/static/media/badges-3.814086f1d5b5e4c221da.png",
+    "static/media/article-1.png": "/static/media/article-1.d3ca78f3332a5a9c8e24.png",
+    "static/media/profile-5.jpeg": "/static/media/profile-5.28c0e8355bef6a5314ed.jpeg",
+    "static/media/article-2.jpeg": "/static/media/article-2.8b044982a2ff6118928b.jpeg",
+    "static/media/badges-7.png": "/static/media/badges-7.64c9e5360b35fae891bd.png",
+    "static/media/badges-1.jpg": "/static/media/badges-1.c5fc450d6eb8b7953233.jpg",
+    "static/media/badges-8.png": "/static/media/badges-8.79bb494f081c486f4597.png",
+    "static/media/profile-4.jpeg": "/static/media/profile-4.feb33d871a3e0a1e8785.jpeg",
+    "static/media/profile-6.jpeg": "/static/media/profile-6.ab496233a6767e63a768.jpeg",
+    "static/media/badges-9.png": "/static/media/badges-9.084fa7b2e845b6a5942e.png",
+    "static/media/badges-4.png": "/static/media/badges-4.ef77a4e1ef9b4c42355f.png",
+    "static/media/badges-5.png": "/static/media/badges-5.04db982b673725600b05.png",
+    "static/media/badges-6.png": "/static/media/badges-6.ce814960dd278f569d29.png",
+    "index.html": "/index.html",
+    "main.9728cabe.css.map": "/static/css/main.9728cabe.css.map",
+    "main.31709e4f.js.map": "/static/js/main.31709e4f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9728cabe.css",
+    "static/js/main.31709e4f.js"
+  ]
+}
