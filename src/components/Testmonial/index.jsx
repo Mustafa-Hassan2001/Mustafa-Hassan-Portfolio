@@ -34,10 +34,9 @@ const Testimonial = () => {
         <section id='testimonial'>
             <div className="section__wrapper">
                 <div className="section__header">
-                    <h2 className="primary__title">Recommendations</h2>
+                    <h2 className="primary__title">VOICE OF SUCCESS</h2>
                     <p className="text__muted description">
-                        Discover what other industry professionals are saying about their experiences working
-                        with me as their trusted web developer.
+                    <b></b> Positive Impact shared by others.
                     </p>
                 </div>
                 <Swiper

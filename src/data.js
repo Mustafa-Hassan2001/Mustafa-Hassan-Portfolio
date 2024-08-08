@@ -51,7 +51,7 @@ export const projects = [
         interface offers easy navigation, personalized recommendations, and secure 
         transactions. Elevate your digital storefront and captivate customers with a visually 
         stunning design tailored to your brand`,
-        demoLink: "https://footplot-cfadbuaxbaghceds.eastus-01.azurewebsites.net/",
+        demoLink: "https://footlpot.netlify.app/",
         githubLink: "https://github.com/Mustafa-Hassan2001/Footplot",
       },
       stack:[
